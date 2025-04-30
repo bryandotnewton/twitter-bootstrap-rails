@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 # Specify your gem's dependencies in twitter-bootstrap-rails.gemspec
 gemspec
-gem 'less-rails', :path => ENV['LESS_RAILS_SOURCE'] if ENV['LESS_RAILS_SOURCE']
+gem 'less-rails', git: 'https://github.com/bryandotnewton/less-rails-mini-racer.git'
 
 group :test do
   gem 'minitest'
