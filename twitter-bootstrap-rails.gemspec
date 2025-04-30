@@ -5,9 +5,9 @@ Gem::Specification.new do |s|
   s.name        = "twitter-bootstrap-rails"
   s.version     = Twitter::Bootstrap::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Seyhun Akyurek"]
-  s.email       = ["seyhunak@gmail.com"]
-  s.homepage    = "https://github.com/seyhunak/twitter-bootstrap-rails"
+  s.authors     = ["Bryan"]
+  s.email       = ["bryandotnewton@gmail.com"]
+  s.homepage    = "https://github.com/bryandotnewton/twitter-bootstrap-rails"
   s.summary     = %q{Bootstrap CSS toolkit for Rails 3.1 Asset Pipeline}
   s.description = %q{twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 3.1 Asset Pipeline}
 
@@ -25,13 +25,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mini_racer'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rake'
-  s.post_install_message = "Important: You may need to add a javascript runtime to your Gemfile in order for bootstrap's LESS files to compile to CSS. \n\n" \
-  "**********************************************\n\n" \
-  "ExecJS supports these runtimes:\n\n" \
-  "mini_racer - Google V8 embedded within Ruby\n\n" \
-  "therubyrhino - Mozilla Rhino embedded within JRuby\n\n" \
-  "Node.js\n\n" \
-  "Apple JavaScriptCore - Included with Mac OS X\n\n" \
-  "Microsoft Windows Script Host (JScript)\n\n" \
-  "**********************************************"
 end
